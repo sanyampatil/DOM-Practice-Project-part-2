@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-sec{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.btn-sec button{
+
+    padding: 10px 20px;
+    margin-top: 10px 20px;
+    background-color:black;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.btn-sec button:hover{
+    background-color: rgba(45, 46, 44, 0.84);
+    
+
+
+}
